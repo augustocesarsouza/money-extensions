@@ -4,6 +4,25 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensions_Augusto</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Augusto Cesar</Authors>
+    <Company>Augusto.io</Company>
+    <PackageDescription>Extension to convert decimal to interger</PackageDescription>
+    <Description>Extension to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/augustocesarsouza/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/augustocesarsouza/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decimal;convert</PackageTags>
+    <Title></Title>
+    <Summary>Extension to convert decimal to interger</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
